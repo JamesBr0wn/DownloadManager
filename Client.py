@@ -9,7 +9,7 @@ server_ip = '127.0.0.1'
 server_port = 10086
 
 # 储存文件的路径
-download_path = 'D:\\pyCharm\\'
+download_path = 'Download\\'
 
 
 class Client:
