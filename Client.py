@@ -65,7 +65,8 @@ class Client:
         file_final_name = file_name
         index = 1
         while os.path.exists(download_path + file_final_name):
-            file_final_name = file_name[:file_name.rfind('.')] + '(' + str(index) + ')' + file_name[file_name.rfind('.'):]
+            file_final_name = file_name[:file_name.rfind('.')] + '(' + str(index) + ')' + \
+                              file_name[file_name.rfind('.'):]
             index = index + 1
         # 接收文件
         file = open(download_path + file_final_name, 'ab')
